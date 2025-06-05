@@ -1,0 +1,103 @@
+.head{
+    color:rgb(65, 45, 64);
+    font-family:Permanent Marker;
+    font-size: 50px;
+    
+    
+       
+}
+h2{
+    color:rgb(0, 0, 0);
+    font-family:Permanent Marker;
+    background-color: rgb(73, 72, 72);
+   
+    
+}
+ul{
+
+      color:rgb(65, 45, 64);
+    font-family:courier;
+}
+ol{
+      color:rgb(65, 45, 64);
+    font-family:courier;
+}
+body{
+    background-image:url(BLACK.jpg);
+
+}
+label{
+   font-family: Permanent Marker;
+   
+}
+.page1{
+flex-direction:column;
+ display:flex;
+ align-items:center;
+ height:100vh;
+
+
+
+}
+.navbar ul{
+flex-direction:row;
+justify-content:space-evenly;
+align-items: center;
+display:flex;
+margin-left: auto;
+font-style:unset;
+background-color: rgb(92, 23, 23);
+color:aliceblue;
+height:7vh;
+margin-top:-13px;
+}
+button{
+
+    background-color: rgb(70, 70, 80);
+   color:aliceblue;
+   height: 40px;
+   width:200px;
+   border-radius:10%;
+   font-size: large;
+   font-family: 'Courier New', Courier, monospace;
+}
+.page3{
+ justify-content: center;
+ align-items: center;
+ display:flex;
+ flex-direction:column;
+ font-family: Permanent Marker;
+ height:40vh;
+ background-color: rgb(73, 72, 72);
+ margin-top: 200px;
+border-radius: 8%;
+}
+h2:hover{
+    background-color: rgb(92, 23, 23);
+}
+
+
+.page2{
+  
+    display:flex;
+    height: 70vh;
+    flex-direction: column;
+
+    
+}
+.navbar a{
+    text-decoration: none;
+    color:aliceblue
+}
+.navbar{
+
+  
+    position: fixed;
+    justify-content: space-evenly;
+    width:100%;
+
+
+}
+*{
+    scroll-behavior: smooth;
+}
