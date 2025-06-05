@@ -37,10 +37,11 @@ select{
 }
 body{
 
-    background-image:url(superman-removebg-preview.png),url(cal.png);
+    background-image:url(cal.png);
 background-size:cover;
-background-size: 500px,2000px;
 background-repeat: no-repeat;
+animation:moo 20s infinite ;
+
 
 
 
@@ -61,6 +62,7 @@ h1{
      margin-top:-20px
 
 }
+
 @keyframes move {
 
 0%{ letter-spacing: 70px;
@@ -80,6 +82,30 @@ h1{
      letter-spacing: 70px;
      opacity: 0%;
 }
+}
+@keyframes moo{
+
+0%{ background-position-x: 1%;
+    background-position-y: 1%;
+   
+
+}
+50%{
+     background-position-x: 200%;
+     background-position-y: 200%;
+}
+51%{ background-position-x: 200%;
+    background-position-y: 200%;
+   
+
+}
+100%{
+     background-position-x: 1%;
+     background-position-y: 1%;
+}
+
+
+
 
 }
 h2{
